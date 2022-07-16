@@ -3,7 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	record := Record{}
+	record := Record{
+		Patient{
+			FirstName: "Mike",
+			LastName:  "Hull",
+		},
+		Docter{
+			FirstName: "Steven",
+			LastName:  "Berg",
+		},
+		Medicine{
+			MedicineName:     "Tylenol",
+			MedicineQuantity: "300mg As Needed",
+		},
+	}
 	fmt.Println(record)
 }
 
