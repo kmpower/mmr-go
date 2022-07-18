@@ -10,6 +10,7 @@ func init() {
 }
 
 func main() {
+	ReadDB()
 	fmt.Println(PatientData())
 	fmt.Println(DoctorData())
 	fmt.Println(MedicineData())
