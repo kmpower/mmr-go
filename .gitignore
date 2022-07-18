@@ -1,4 +1,4 @@
-dbconn.go
+secure-variables.go
 
 # Binaries for programs and plugins
 *.exe
